@@ -1,3 +1,18 @@
+## 📌 Información General
+
+- **Título:** Proyecto Final  
+- **Asignatura:** Estructura de Datos  
+- **Carrera:** Computación  
+- **Estudiante1:** Carlos Andres Cajas Tapia
+- **Correo:** ccajast@est.ups.edu.ec
+- **Estudiante2:** Brandon Rene Collaguazo Saraguro 
+- **Correo:** bcollaguazos@est.ups.edu.ec
+- **Estudiante3:** Carlos Antonio Gordillo Tenemaza
+- **Correo:** cgordillot@estu.ups.edu.ec
+- **Fecha:** 28/07/2025  
+- **Profesor:** Ing. Pablo Torres  
+
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
