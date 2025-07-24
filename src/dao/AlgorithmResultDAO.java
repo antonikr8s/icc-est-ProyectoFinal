@@ -1,10 +1,10 @@
 package dao;
 
-import models.AlgorithmResult;
 import java.util.List;
+import models.AlgorithmResult;
 
 public interface AlgorithmResultDAO {
-    void saveResult(AlgorithmResult result);
-    List<AlgorithmResult> loadAll();
-    void clearAll();
+    void save(AlgorithmResult algorithmResult);
+    List<AlgorithmResult> findAll();
+    void clear();
 }

@@ -1,12 +1,30 @@
 package models;
 
 public class AlgorithmResult {
-    public String name;
-    public int pathLength;
-    public long timeNano;
-    public AlgorithmResult(String name, int pathLength, long timeNano) {
-        this.name = name;
+    private final String algorithmName;
+    private final int pathLength;
+    private final long timeMs;
+
+    public AlgorithmResult(String algorithmName, int pathLength, long timeMs) {
+        this.algorithmName = algorithmName;
         this.pathLength = pathLength;
-        this.timeNano = timeNano;
+        this.timeMs = timeMs;
+    }
+
+    public String getAlgorithmName() {
+        return this.algorithmName;
+    }
+
+    public int getPathLength() {
+        return this.pathLength;
+    }
+
+    public long getTimeMs() {
+        return this.timeMs;
+    }
+
+    @Override
+    public String toString() {
+        return algorithmName + "," + pathLength + "," + timeMs;
     }
 }
