@@ -1,9 +1,10 @@
 package solver;
 
 import models.Cell;
-import models.CellState;
+import models.SolveResults;
 
 public interface MazeSolver {
+    SolveResults getPath(Cell[][] maze, Cell start, Cell end);
+
     String getName();
-    models.SolveResults solve(CellState[][] maze, Cell start, Cell end);
 }

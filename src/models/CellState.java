@@ -1,5 +1,9 @@
 package models;
 
 public enum CellState {
-    EMPTY, WALL, START, END, PATH
+    EMPTY,  // Celda libre
+    WALL,   // Muro
+    START,  // Punto de inicio
+    END,    // Punto de destino
+    PATH    // Parte del camino encontrado
 }
