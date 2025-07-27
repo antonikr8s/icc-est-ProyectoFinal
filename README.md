@@ -8,10 +8,7 @@
 - **Título:** Proyecto Final  
 - **Asignatura:** Estructura de Datos  
 - **Carrera:** Computación  
-- **Estudiantes:**
-  - Carlos Andres Cajas Tapia [ccajast@est.ups.edu.ec](mailto:ccajast@est.ups.edu.ec)
-  - Brandon Rene Collaguazo Saraguro [bcollaguazos@est.ups.edu.ec](mailto:bcollaguazos@est.ups.edu.ec)
-  - Carlos Antonio Gordillo Tenemaza [cgordillot@est.ups.edu.ec](mailto:cgordillot@est.ups.edu.ec)
+- **Estudiante:** Carlos Antonio Gordillo Tenemaza [cgordillot@est.ups.edu.ec](mailto:cgordillot@est.ups.edu.ec)
 - **Fecha:** 28/07/2025  
 - **Profesor:** Ing. Pablo Torres  
 
