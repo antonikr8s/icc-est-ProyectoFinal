@@ -32,7 +32,10 @@ public class MazeSolverRecursivoCompleto implements MazeSolver {
         visited.add(cell);
         camino.add(cell);
 
-        if (cell.equals(target)) return true;
+        if (cell.equals(target)) {
+            camino.add(cell);
+            return true;
+        }
 
         if (findPath(maze, row + 1, col, target) ||
             findPath(maze, row, col + 1, target) ||
@@ -41,7 +44,6 @@ public class MazeSolverRecursivoCompleto implements MazeSolver {
             return true;
         }
 
-        camino.remove(camino.size() - 1); 
         return false;
     }
 
