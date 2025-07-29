@@ -1,4 +1,4 @@
-<img src="ima/Fotos/LogoU.png" alt="Logo" width="500" height="150">
+<img src="ima/fotos/LogoU.png" alt="Logo" width="500" height="150">
 
 # Proyecto Final: *Laberinto*
 
